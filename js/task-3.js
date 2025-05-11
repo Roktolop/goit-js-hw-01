@@ -1,3 +1,5 @@
+'use strict';
+
 function getElementWidth(content, padding, border) {
     let totalWidth = Number.parseInt(content) + Number.parseInt(padding) * 2 + Number.parseInt(border) * 2;
 
